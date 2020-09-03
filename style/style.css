@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../res/bg.jpg) no-repeat center/cover;
+}
+body,
+input,
+select,
+textarea {
+	font-family: 'Source Sans Pro', 'Helvetica', Arial, sans-serif;
+	font-size: 18px;
+    line-height: 1.5;
+    background-color: #0D1B2E;
+}
+
+/* Layout */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    padding: 1em 2em;
+    background-color: #0D1B2E;
+    color: white;
+    background: url(../res/img.jpg);
+    
+}
+
+.header h1 {
+    text-align: center;
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+    background: linear-gradient(to right, #8A2387 0%,#E94057 50%, #F27121 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.intro {
+    padding: 2em 2em;
+    padding-top: 12px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+
+.intro p{
+    margin: 0 auto;
+    max-width: 850px;
+    background: linear-gradient(to right, #F1F2B5 0%,#20BDFF 50%, #a5fecb 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.test-area {
+    margin: 0 auto;
+    max-width: 550px;
+}
+
+.test-area {
+    margin-bottom: 4em;
+    padding: 0 2em;
+}
+
+.test-wrapper {
+    border: 12px solid grey;
+    border-bottom-left-radius: 23px;
+    border-bottom-right-radius: 23px;
+}
+
+#given-text {
+    margin: 1em 0;
+    padding: 1em 1em 0;   
+    background-color: #808080;
+    color: ghostwhite;
+    margin-bottom: 6px;
+    border-top-left-radius: 23px;
+    border-top-right-radius: 23px;
+
+}
+
+#given-text p {
+    margin: 0;
+    padding-bottom: 1em;
+    letter-spacing: 1.2px;
+}
+
+.test-wrapper {
+    height: 200%;
+    display: flex;
+}
+
+.test-wrapper textarea {
+    padding: 3px 16px;
+    flex: 1;
+    color: #a7a6a6;
+    letter-spacing: 1.2px;
+    outline: none;
+}
+
+.meta {
+    margin-top: 1em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.timer {
+    font-size: 3em;
+    color: white;
+    font-weight: bold;
+}
+
+#reset {
+    padding: 1px 18px;
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #E95D0F;
+    background-color: #0D1B2E;
+    border: 4px solid #E95D0F;
+    border-radius: 29px;
+    outline: none;
+}
+
+#reset:hover {
+    color: white;
+    background-color: #E95D0F;
+}
