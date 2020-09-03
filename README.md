@@ -1,1 +1,1 @@
-# Rajesh42-TypingTest
+# TypingTest
